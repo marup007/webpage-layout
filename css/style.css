@@ -1,0 +1,429 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+}
+.container {
+
+	width: 1140px;
+	margin:0 auto;
+	background-image: url(../img/bg1.jpg)
+	background:cover;
+	background-repeat: no-repeat;
+
+}
+
+/*Header part start*/
+
+header {
+
+	background-color: #1f1f14;
+	background-image: url(../img/hb.png);
+	height: 120px;
+	width: 100%;
+	float: left;
+	position: fixed;
+	top: 0px;
+	
+}
+
+.logo {
+
+	height: 120px;
+	width: 50%;
+	float: left;
+}
+.logo img {
+
+	position: initial;
+    float: left;
+    width: 12%;
+    margin-top: 33px;
+   
+}
+.menu {
+
+	height: 75px;
+	width: 50%;
+	float: left;
+
+}
+
+nav ul {
+
+list-style: none;
+}
+
+nav ul li {
+
+display: inline-block;
+
+margin: 50px 20px;
+}
+
+nav ul li a {
+
+text-decoration: none;
+
+color: #ffffffed;
+
+font-size: 20px;
+}
+.social {
+
+	width: 35%;
+	float: left;
+
+}
+
+.social ul {
+	
+	list-style: none;
+
+}
+
+.social ul li {
+
+	display: inline-block;
+	margin: 10px 25px ;
+
+}
+
+.fa.fa-facebook-square {
+
+	background-color: oldlace;
+    padding: 3px 3px;
+    color: initial;
+    font-size: larger;
+    transition: 0.4s ease;
+}
+.fa.fa-facebook-square:hover {
+	transform: scale(1.2);
+}
+.fa.fa-linkedin-square {
+	
+	background-color: oldlace;
+    padding: 3px 3px;
+    color: initial;
+    font-size: larger;
+    transition: 0.4s ease;
+
+}
+.fa.fa-linkedin-square:hover {
+	transform: scale(1.2);
+}
+
+.fa.fa-google-plus-square {
+
+	background-color: oldlace;
+    padding: 3px 3px;
+    color: initial;
+    font-size: larger;
+    transition: 0.4s ease;
+}
+.fa.fa-google-plus-square:hover {
+	transform: scale(1.2);
+}
+
+.fa.fa-telegram {
+
+	background-color: oldlace;
+    padding: 3px 3px;
+    color: initial;
+    font-size: larger;
+    transition: 0.4s ease;
+
+}
+.fa.fa-telegram:hover {
+	transform: scale(1.2);
+}
+
+.fa.fa-youtube-play {
+
+	background-color: oldlace;
+    padding: 3px 3px;
+    color: initial;
+    font-size: larger;
+    transition: 0.4s ease;
+}
+.fa.fa-youtube-play:hover {
+	transform: scale(1.2);
+
+}
+
+/*Header part end*/
+
+/*highlighted section start */
+.highlighted-section {
+    padding: 100px;
+    background-image: url(../img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-bottom: 30px;
+   
+}
+.highlighted-area {
+    background: rgba(0,0,0,.1);
+    width: 500px;
+    height: auto;
+    padding: 40px;
+    text-align: center;
+    margin-top: 200px;
+
+}
+.highlighted-area h2 {
+    font-size: 26px;
+    text-transform: uppercase;
+    margin: 0;
+
+}
+.highlighted-area p {
+    margin: 20px 0;
+    text-transform: uppercase;
+    font-size:20px;
+}
+.highlighted-area a {
+    display: inline-block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: black;
+    background: #79a6d2;
+    text-transform: uppercase;
+    margin-right: 10px;
+    border-radius: 10px;
+
+}
+/* highlighted section End */
+
+/*about part*/
+
+.about {
+
+	width: 100%;
+	float: left;
+}
+.about-image {
+
+	background-color: #004d4d;
+	height: 350px;
+	width: 40%;
+	float: left;
+}
+
+.about-content {
+
+	background-color: #004d26;
+	height: 350px;
+	width: 60%;
+	float: left;
+}
+
+.about-content-one {
+
+	background-color: #1f1f2e;
+	height: 350px;
+	width: 50%;
+	float: left;
+
+}
+
+.about-content-two {
+
+	background-color: #1f2e2e;
+	height: 350px;
+	width: 50%;
+	float: left;
+
+}
+
+/*srvice*/
+
+.service {
+
+	width: 100%;
+    float: left;
+    padding: 30px 0;
+}
+
+.single-services{
+	width:23%;
+	float: left;
+	margin-right:2%;
+	text-align: center;
+}
+.single-services p{
+	text-align:left;
+}
+.single-services a{
+	background: #006666;
+	color: white;
+	text-decoration: none;
+	padding: 6px 9px;
+	display: inline-block;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+.fa.fa-check-circle-o{
+	color: white;
+	background:#6977D5;
+	height: 20px;
+	width: 20px;
+	font-size: 20px;
+	border: 1px solid #6977D5;
+	border-radius: 50%;
+	padding:15px;
+}
+
+.fa.fa-map-marker{
+	color: white;
+	background:#01968C;
+	height: 20px;
+	width:20px;
+	font-size: 20px;
+	border: 1px solid #01968C;
+	border-radius: 50%;
+	padding:15px;
+}
+
+.fa.fa-money{
+	color: white;
+	background:#48B246;
+	height:20px;
+	width: 20px;
+	font-size: 20px;
+	border: 1px solid #48B246;
+	border-radius: 50%;
+	padding:15px;
+}
+
+.fa.fa-user-plus{
+	color: white;
+	background:#93E863;
+	height: 20px;
+	width: 20px;
+	font-size: 20px;
+	border: 1px solid #93E863;
+	border-radius: 50%;
+	padding:15px;
+}
+/*Money section start*/
+
+.money-section{
+	padding: 30px 0;
+	width: 100%;
+	float: left;
+}
+.money-left{
+	float: left;
+	width: 30%;
+	margin-right: 15%;
+	background: #ccffff;
+	padding:3%;
+	margin-left:6%;
+}
+.money-right{
+	float: left;
+	width: 30%;
+	background: #ccffff;
+	padding: 3%;
+}
+.money-section h2{
+	margin-left: 45px;
+	margin-bottom: 5px;
+}
+.money-section a{
+	background: #00e6e6;
+	color: white;
+	padding: 7px 12px;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: 5px;
+}
+.money-list i{
+	background: #003333;
+	color: black;
+	font-size: 12px;
+	margin-right: 8px;
+	height: 12px;
+	width: 12px;
+	border-radius: 50%;
+}
+
+/*Money section end*/
+/*blog section start*/
+.blog {
+	padding: 20px 0;
+}
+.blog h2{
+	text-align: center;
+	color: #61858E;
+	text-transform: capitalize;
+	margin: 8px 0;
+}
+.blog-dcr{
+	width: 100%;
+	float:left;
+	margin-top: 15px;
+}
+.blog-dcr-one{
+	width: 42%;
+    float: left;
+    margin-right:11%;
+    margin-left: 5%;
+}
+}
+.blog-dcr-two{
+	width:42%;
+	float: left;
+	
+}
+.blog-dcr-two h1{
+	margin-bottom:48px;
+}
+.blog-dcr h1{
+	color: #698185;
+}
+.blog-dcr a{
+	text-decoration: none;
+	color: white;
+	background: #67C32B;
+	display: inline-block;
+	padding: 7px 12px;
+	text-transform: uppercase;
+	border-radius: 10px;
+}
+/* blog section end */
+/*lent section start*/
+
+.lent {
+	width: 100%;
+    float: left;
+    padding: 8px 0;
+    background: #33bbff;
+    color: #293d3d;
+    font-weight: 500;
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* lent section end */
+
+/*footer section start*/
+footer {
+
+	width: 100%;
+	float: left;
+	background-color: #b3b3b3;
+
+}
+
+.copyright {
+
+	width: 100%;
+	float: left;
+
+}
+
